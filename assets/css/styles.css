@@ -207,6 +207,30 @@ img {
   text-align: center;
   row-gap: 2rem;
 }
+
+.nav__link{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: color .4s;
+}
+
+.nav__link:hover{
+  color: var(--first-color);
+}
+
+.nav__close{
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav__img-1,
+.nav__img-2{
+  position: absolute;
+  opacity: .2;
+}
 /* Show menu */
 
 
