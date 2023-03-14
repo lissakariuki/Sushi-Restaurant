@@ -315,7 +315,16 @@ img {
   transform: rotate(-15deg);
 }
 /*=============== BUTTON ===============*/
-
+.button{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: #fff;
+  font-weight: var(--font-medium);
+}
 
 /*=============== ABOUT ===============*/
 
