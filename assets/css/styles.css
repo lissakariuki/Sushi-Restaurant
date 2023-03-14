@@ -381,7 +381,34 @@ img {
   transform: rotate(-15deg);
 }
 /*=============== POPULAR ===============*/
+.popular__container{
+  padding-top: 4rem;
+  grid-template-columns: 250px;
+  justify-content: center;
+  row-gap: 5.5rem;
+}
 
+.popular__card{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 7rem 2rem 1.5rem;
+  box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
+  border-radius: 1rem;
+  text-align:  center;
+}
+
+.popular__img{
+  width: 220px;
+  position: absolute;
+  inset: 0;
+  top: -2.5rem;
+  margin: 0 auto;
+  transition: transform .4s;
+}
+
+.popular__name{
+  
+}
 
 /*=============== RECENTLY ===============*/
 
