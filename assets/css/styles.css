@@ -343,7 +343,28 @@ img {
   transform: translateX(.25rem);
 }
 /*=============== ABOUT ===============*/
+.about{
+  position: relative;
+}
 
+.about__container{
+  row-gap: 3rem;
+}
+
+.about__data{
+  text-align: center;
+}
+
+.about__title img{
+  width: 30px;
+}
+
+.about__title div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+}
 
 /*=============== POPULAR ===============*/
 
