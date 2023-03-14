@@ -231,6 +231,19 @@ img {
   position: absolute;
   opacity: .2;
 }
+.nav__img-1{
+  width: 100px;
+  top: .75rem;
+  left: -2rem;
+  transform: rotate(165deg);
+}
+
+.nav__img-2{
+  width: 50px;
+  right: -1rem;
+  bottom: 0;
+  transform: rotate(-30deg)
+}
 /* Show menu */
 
 
