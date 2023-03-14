@@ -250,7 +250,9 @@ img {
 }
 
 /* Change background header */
-
+.bg-header{
+  box-shadow: 0 2px 8px hsla(19, 64%, 24%, .1);
+}
 
 /* Active link */
 
