@@ -289,6 +289,31 @@ img {
   justify-content: center;
   column-gap: .5rem;
 }
+
+.home__description{
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.home__leaf-1,
+.home__leaf-2{
+  position: absolute;
+  opacity: .2;
+}
+
+.home__leaf-1{
+  width: 80px;
+  top: 8rem;
+  left: -1rem;
+  transform: rotate(90deg);
+}
+
+.home__leaf-2{
+  width: 100px;
+  right: -2rem;
+  bottom: 1rem;
+  transform: rotate(-15deg);
+}
 /*=============== BUTTON ===============*/
 
 
