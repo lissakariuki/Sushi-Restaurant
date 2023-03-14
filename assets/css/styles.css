@@ -256,8 +256,39 @@ img {
 
 
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+}
 
+.home__container{
+  row-gap: 3rem;
+  padding-top: 2rem;
+}
 
+.home__img{
+  width: 300px;
+  justify-self: center;
+}
+
+.home__data{
+  text-align: center;
+}
+.home__title{
+  font-size: var(--biggest-font-size);
+  font-family: var(--title-font);
+  margin-bottom: 1rem;
+}
+
+.home__title img{
+  width: 40px;
+
+}
+.home__title div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .5rem;
+}
 /*=============== BUTTON ===============*/
 
 
