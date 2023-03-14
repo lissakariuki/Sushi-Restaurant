@@ -366,6 +366,20 @@ img {
   column-gap: .5rem;
 }
 
+.about__img{
+  width: 300px;
+  justify-self: center;
+
+}
+
+.about__leaf{
+  width: 100px;
+  opacity: .2;
+  position: absolute;
+  right: -1.5rem;
+  bottom: 11rem;
+  transform: rotate(-15deg);
+}
 /*=============== POPULAR ===============*/
 
 
