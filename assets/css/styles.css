@@ -750,7 +750,9 @@ font-size: var(--small-font-size);
   transform: translateY(-.25rem);
 }
 /* Show Scroll Up*/
-
+.show-scroll{
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
