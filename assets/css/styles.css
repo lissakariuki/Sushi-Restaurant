@@ -64,7 +64,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: background 0.4s; /* for dark mode animation */
+  transition: background 0.5s; /* for dark mode animation */
 }
 
 h1, h2, h3 {
@@ -440,6 +440,7 @@ body.dark-theme{
   box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
   border-radius: 1rem;
   text-align:  center;
+  transition: background 0.5s; /* for dark mode animation */
 }
 
 .popular__img{
@@ -607,6 +608,12 @@ body.dark-theme{
   right: 2rem;
   bottom: -2rem;
   transform: rotate(55deg);
+}
+
+.newsletter__container,
+.newsletter__form,
+.newsletter__input{
+  transition: background 0.5s; /* for dark mode animation */
 }
 /*=============== FOOTER ===============*/
 .footer{
