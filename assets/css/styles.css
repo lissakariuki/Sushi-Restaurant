@@ -622,6 +622,25 @@ font-size: var(--small-font-size);
   transition: color .3s;
 }
 
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.footer__social-link{
+  color: var(--first-color);
+  font-size: 1.25rem;
+  transition: color .3s, transform .3s;
+}
+
+.footer__social-link:hover{
+  color: var(--first-color-alt);
+  transform: translateY(-2px);
+}
 /*=============== SCROLL BAR ===============*/
 
 
