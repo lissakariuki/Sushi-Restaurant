@@ -1018,7 +1018,21 @@ font-size: var(--small-font-size);
   .newsletter__content{
     grid-template-columns: 350px 360px;
     align-items: center;
-    
-
+    column-gap: 6rem;
+    padding: 2.5rem;  
+    border-radius: 4.5rem;
   }
+  .newsleter__img{
+    position: initial;
+    width: 350px;
+  }
+
+  .newsletter .section__subtitle,
+  .newsletter .section__title{
+    text-align: initial;
+  }
+  .newsletter .section__title{
+    margin-bottom: 2.5rem;
+  }
+  
 }
