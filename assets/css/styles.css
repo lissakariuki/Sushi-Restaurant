@@ -893,7 +893,20 @@ font-size: var(--small-font-size);
 
   }
 
+  .nav__menu{
+    margin-left: auto;
+  }
+  
+  .dark-theme .nav__menu{
+    box-shadow: none;
+  }
+  .popular__container{
+    grid-template-columns: repeat(2, 240px);
+  }
 
+  .footer__content{
+    grid-template-columns: repeat(4, max-content);
+  }
 }
 
 /* For large devices */
