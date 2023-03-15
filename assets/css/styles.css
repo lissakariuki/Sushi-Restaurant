@@ -452,7 +452,41 @@ img {
 }
 
 /*=============== RECENTLY ===============*/
+.recently{
+  position: relative;
+}
 
+.recently__container{
+  row-gap: 4rem;
+}
+.recently__data{
+  position: relative;
+  text-align: center;
+}
+
+.recently__description{
+  margin-bottom: 2rem;
+}
+
+.recently__data-img{
+  width: 25px;
+  position: absolute;
+  top: 3.5rem;
+  right: 1.5rem;
+  transform: rotate(30deg);
+}
+
+.recently__img{
+  width: 300px;
+  justify-self: center;
+
+}
+
+.recently__leaf-1, 
+.recently__leaf-2{
+  position: absolute;
+  opacity: .2;
+}
 
 /*=============== NEWSLETTER ===============*/
 
