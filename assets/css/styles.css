@@ -502,7 +502,32 @@ img {
   transform: rotate(30deg);
 }
 /*=============== NEWSLETTER ===============*/
+.newsletter__container{
+  position: relative;
 
+}
+
+.newsletter__content{
+  position: relative;
+  background-color: hsl(19, 24%, 15%);
+  border-radius: 2.5rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.newsletter__img{
+  width: 250px;
+  position: absolute;
+  top: -4.5rem;
+  left: -8rem;
+}
+
+.newsletter__data .section__title{
+  color: #fff;
+  
+}
 
 /*=============== FOOTER ===============*/
 
