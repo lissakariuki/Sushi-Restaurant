@@ -587,8 +587,23 @@ img {
 }
 
 .footer__logo img{
-  
+  width: 25px;
 }
+
+.footer__logo:hover{
+  color: var(--first-color);
+}
+
+.footer__description,
+.footer__link, .footer__information{
+font-size: var(--small-font-size);
+
+}
+.footer__content,
+.footer__links{
+  display: grid;
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
