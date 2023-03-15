@@ -648,18 +648,37 @@ font-size: var(--small-font-size);
   position: absolute;
 }
 
+
+
 .footer__onion{
   top: 7.5rem;
   right: 5rem;
   transform: rotate(-45deg);
 }
+.footer__onion-1{
+  top: 9.5rem;
+  right: 5rem;
+  display: flex;
+  width: 30px;
+  justify-self: center;
+  left: 3rem;
+  transform: rotate(-45deg);
+}
+
 
 .footer__spinach{
   bottom: 8rem;
   left: 3rem;
   transform: rotate(30deg);
 }
-
+.footer__spinach-1{
+  display: flex;
+  width: 30px;
+  justify-self: end;
+  top: 5%;
+  left: 3rem;
+  transform: rotate(-45deg);
+}
 .footer__leaf{
   width: 100px;
   opacity: .2;
@@ -694,7 +713,6 @@ font-size: var(--small-font-size);
   text-align: center;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-
 }
 /*=============== SCROLL BAR ===============*/
 
