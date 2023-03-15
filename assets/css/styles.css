@@ -526,9 +526,43 @@ img {
 
 .newsletter__data .section__title{
   color: #fff;
-  
+  margin-bottom: 2rem;
+
 }
 
+.newsletter__form{
+  background-color: #fff;
+  padding: 5px 5px 5px 16px;
+  border-radius: 4rem;
+  display: flex;
+  column-gap: .5rem;
+}
+
+.newletter__input,
+.newsletter__button{
+  font-family: var(--body-font);
+  border: none;
+  outline: none;
+}
+
+.newsletter__input{
+  width: 90%;
+  color: var(--text-color);
+  outline: none;
+  border: none;
+}
+
+.newsletter__button{
+  cursor: pointer;
+}
+
+.newsletter__spinach{
+  width: 30px;
+  position: absolute;
+  right: 2rem;
+  bottom: -2rem;
+  transform: rotate(55deg);
+}
 /*=============== FOOTER ===============*/
 
 
