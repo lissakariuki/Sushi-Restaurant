@@ -939,4 +939,15 @@ font-size: var(--small-font-size);
     justify-content: initial;
     column-gap: 1rem;
   }
+  .home__description{
+    padding-inline: 0 10rem;
+
+  }
+
+  .home__img{
+    width: 600px;
+    position: absolute;
+    top: 5rem;
+    right:-2rem;
+  }
 }
