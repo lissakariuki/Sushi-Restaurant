@@ -1121,4 +1121,17 @@ font-size: var(--small-font-size);
     width: 150px;
     top: 19rem;
   }
+
+  .recently__leaf-2{
+    width: 100px;
+    bottom: 15rem;
+  }
+
+  .footer__leaf{
+    right: 0;
+    left: 0;
+    bottom: -15rem;
+    margin: 0 auto;
+    width: 150px;
+  }
 }
