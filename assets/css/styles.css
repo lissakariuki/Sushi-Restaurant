@@ -448,7 +448,7 @@ img {
 
 }
 .popular__card:hover .popular__img{
-  transform: translateY(-.25rem)
+  transform: translateY(-.25rem);
 }
 
 /*=============== RECENTLY ===============*/
