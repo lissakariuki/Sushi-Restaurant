@@ -564,7 +564,31 @@ img {
   transform: rotate(55deg);
 }
 /*=============== FOOTER ===============*/
+.footer{
+  position: relative;
+  padding-block: 3rem 2rem;
+  overflow: hidden;
+}
 
+.footer__container{
+  row-gap: 3rem;
+}
+
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--title-color);
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+  transition: color .3s;
+}
+
+.footer__logo img{
+  
+}
 
 /*=============== SCROLL BAR ===============*/
 
