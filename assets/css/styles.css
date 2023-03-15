@@ -840,6 +840,23 @@ font-size: var(--small-font-size);
   .newsletter__content{
     padding: 6rem 1rem 2rem;
   }
+  .newsletter__form{
+    flex-direction: column;
+    background: none;
+    row-gap: 1rem;
+  }
+  .newsletter__input{
+    width: initial;
+    padding: 1rem;
+    border-radius: 4rem;
+  }
+  .newsletter__button{
+    justify-content: center;
+  }
+
+  .footer__content{
+    gap: 1.5rem;
+  }
 }
 
 /* For medium devices */
