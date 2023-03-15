@@ -715,8 +715,20 @@ font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(19, 8%, 75%);
+}
 
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: hsl(19, 8%, 65%)
+}
 
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(19, 8%, 55%)
+}
 /*=============== SCROLL UP ===============*/
 
 
