@@ -808,7 +808,39 @@ font-size: var(--small-font-size);
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px){
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .section{
+    padding-block: 4rem 1;
+  }
+
+  .home__title{
+    font-size: 2rem;
+  }
+  .home__leaf-1{
+    top: 5rem;
+  }
+  .home__leaf-2{
+    bottom: 0;
+  }
+
+  .about__leaf{
+    bottom: 8rem;
+
+  }
+
+  .recently__data-img{
+    right: .5rem;
+
+  }
+
+  .newsletter__content{
+    padding: 6rem 1rem 2rem;
+  }
+}
 
 /* For medium devices */
 
