@@ -641,6 +641,33 @@ font-size: var(--small-font-size);
   color: var(--first-color-alt);
   transform: translateY(-2px);
 }
+
+.footer__onion,
+.footer__spinach{
+  width: 30px;
+  position: absolute;
+}
+
+.footer__onion{
+  top: 7.5rem;
+  right: 5rem;
+  transform: rotate(-45deg);
+}
+
+.footer__spinach{
+  bottom: 8rem;
+  left: 3rem;
+  transform: rotate(30deg);
+}
+
+.footer__leaf{
+  width: 100px;
+  opacity: .2;
+  position: absolute;
+  bottom: 6rem;
+  right: -2rem;
+  transform: rotate(-15deg);
+}
 /*=============== SCROLL BAR ===============*/
 
 
