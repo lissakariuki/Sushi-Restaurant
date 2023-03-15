@@ -980,4 +980,45 @@ font-size: var(--small-font-size);
     column-gap: 3.5rem;
     padding-block: 6rem 4rem;
   }
+  .popular__card{
+    padding: 7.5rem 2rem 2rem;
+    border-radius: 1.5rem;
+  }
+  .popular__img{
+    width: 230px;
+  }
+  .popular__button{
+    bottom: 2rem;
+
+  }
+  .recently__container{
+    grid-template-columns: 350px 480px;
+    align-items: center;
+    column-gap: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  .recently__data,
+  .recently .section__subtitle,
+  .recently .section__title{
+    text-align: initial;
+
+  }
+  .recently__data-img{
+    width: 30px;
+    top: 5.5rem;
+    right: 2.5rem;
+  }
+
+  .recently__img{
+    width: 480px;
+
+  }
+
+  .newsletter__content{
+    grid-template-columns: 350px 360px;
+    align-items: center;
+    
+
+  }
 }
