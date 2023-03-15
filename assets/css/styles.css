@@ -421,6 +421,26 @@ img {
 
 .popular__price{
   font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+
+}
+
+.popular__button{
+  display: flex;
+  background-color: var(--first-color);
+  padding: 6px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 20px hsla(19, 64%, 20% ,.2);
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  cursor: pointer;
+  transition: background .3s;
 }
 
 /*=============== RECENTLY ===============*/
