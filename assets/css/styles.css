@@ -870,6 +870,17 @@ font-size: var(--small-font-size);
     justify-content: center;
   }
 
+  .footer__content{
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .nav{
+    column-gap: 3rem;
+  }
+
+
 }
 
 /* For large devices */
