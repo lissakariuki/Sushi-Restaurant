@@ -689,6 +689,13 @@ font-size: var(--small-font-size);
 .footer__card img{
   width: 35px;
 }
+
+.footer__copy{
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+
+}
 /*=============== SCROLL BAR ===============*/
 
 
