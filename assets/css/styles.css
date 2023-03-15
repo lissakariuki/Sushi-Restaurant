@@ -1045,6 +1045,39 @@ font-size: var(--small-font-size);
     width: 40px;
     right: 5rem;
     bottom: -2.5rem;
-    
+
+  }
+
+  .footer{
+    padding-block: 8rem 3rem;
+  }
+  .footer__container{
+    position: relative;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+
+  .footer__content{
+    column-gap: 4rem;
+
+  }
+
+  .footer__title,
+  .footer__description,
+  .footer__link,
+  .footer__information{
+    font-size: var(--normal-font-size);
+
+  }
+  .footer__social-link{
+    font-size: 1.5rem;
+  }
+  .footer__info{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8.5rem;
+  }
+  .footer__copy{
+    order: -1;
   }
 }
