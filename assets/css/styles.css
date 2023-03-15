@@ -443,6 +443,14 @@ img {
   transition: background .3s;
 }
 
+.popular__button:hover{
+  background-color: var(--first-color-alt);
+
+}
+.popular__card:hover .popular__img{
+  transform: translateY(-.25rem)
+}
+
 /*=============== RECENTLY ===============*/
 
 
