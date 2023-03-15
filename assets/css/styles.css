@@ -860,6 +860,16 @@ font-size: var(--small-font-size);
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .home__container,
+  .about__container,
+  .recently__container,
+  .newsletter__content
+  {
+    grid-template-columns: .7fr;
+    justify-content: center;
+  }
 
+}
 
 /* For large devices */
