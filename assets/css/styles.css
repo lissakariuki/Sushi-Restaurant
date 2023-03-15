@@ -1080,4 +1080,45 @@ font-size: var(--small-font-size);
   .footer__copy{
     order: -1;
   }
+  .footer__spinach{
+    bottom: -3rem;
+    left: 6rem;
+  }
+  .footer__onion,
+  .footer__onion-1{
+    right: 1rem;
+  }
+
+  .scrollup{
+    right: 3rem;
+  }
+}
+
+@media screen and (min-width: 1064px){
+  .container{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .home__leaf-1{
+    width: 150px;
+    top: 5rem;
+  }
+
+  .home__leaf-2{
+    width: 180px;
+    right: -4rem;
+
+  }
+
+  .about__leaf{
+    width: 200px;
+    bottom: 3rem;
+  }
+
+  .recently__leaf-1{
+    width: 150px;
+    top: 19rem;
+  }
 }
