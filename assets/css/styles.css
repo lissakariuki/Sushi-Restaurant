@@ -167,13 +167,13 @@ img {
   align-items: center;
   column-gap: .5rem;
   font-family: var(--title-font);
-  font-size: var(--h1-font-size);
-  font-weight: var(--title-font-weight);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
   transition: color .3s;
 }
 
 .nav__logo img{
-  width: 25px;
+  width: 26px;
 
 }
 
@@ -255,6 +255,9 @@ img {
 }
 
 /* Active link */
+.active-link{
+  color: var(--first-color);
+}
 
 
 /*=============== HOME ===============*/
