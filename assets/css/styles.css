@@ -950,4 +950,19 @@ font-size: var(--small-font-size);
     top: 5rem;
     right:-2rem;
   }
+  .about__container{
+    grid-template-columns: 450px 360px;
+    align-items: center;
+    column-gap: 7rem;
+  }
+  .about__data{
+    order: 1;
+
+  }
+
+  .about__data,
+  .about .section__subtitle,
+  .about .section__title{
+    text-align: initial;
+  }
 }
