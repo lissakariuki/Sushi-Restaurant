@@ -1034,5 +1034,17 @@ font-size: var(--small-font-size);
   .newsletter .section__title{
     margin-bottom: 2.5rem;
   }
-  
+  .newsletter__form{
+    padding: 8px 8px 8px 24px;
+
+  }
+  .newsletter__button{
+    font-size: var(--normal-font-size);
+  }
+  .newsletter__spinach{
+    width: 40px;
+    right: 5rem;
+    bottom: -2.5rem;
+    
+  }
 }
