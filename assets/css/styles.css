@@ -1134,4 +1134,16 @@ font-size: var(--small-font-size);
     margin: 0 auto;
     width: 150px;
   }
+  .newsletter__img{
+    width: 250px;
+    position: relative;
+    left: -8rem;
+  }
+  .newsletter__content {
+    grid-template-columns: 198px 390px;
+    align-items: center;
+    /* column-gap: 6rem; */
+    padding: 2.5rem;
+    border-radius: 4.5rem;
+  }
 }
