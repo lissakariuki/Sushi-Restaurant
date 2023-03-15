@@ -910,3 +910,16 @@ font-size: var(--small-font-size);
 }
 
 /* For large devices */
+@media screen and (min-width: 1024px){
+  .section{
+    padding-block: 7rem 1.5rem;
+  }
+
+  .section__subtitle{
+    margin-bottom: .75rem;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+  }
+}
