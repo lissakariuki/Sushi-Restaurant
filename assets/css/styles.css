@@ -488,6 +488,19 @@ img {
   opacity: .2;
 }
 
+.recently__leaf-1{
+  width: 80px;
+  top: 17rem;
+  left: -1rem;
+  transform: rotate(15deg);
+}
+
+.recently__leaf-2{
+  width: 40px;
+  right: -1rem;
+  bottom: 12rem;
+  transform: rotate(30deg);
+}
 /*=============== NEWSLETTER ===============*/
 
 
