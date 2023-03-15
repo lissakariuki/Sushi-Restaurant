@@ -965,4 +965,19 @@ font-size: var(--small-font-size);
   .about .section__title{
     text-align: initial;
   }
+  .about__title div{
+    column-gap: 1rem;
+    justify-content: initial;
+  }
+  .about__title img{
+    width: 50px;
+  }
+  .about__img{
+    width: 450px;
+  }
+  .popular__container{
+    grid-template-columns: repeat(3, 262px);
+    column-gap: 3.5rem;
+    padding-block: 6rem 4rem;
+  }
 }
