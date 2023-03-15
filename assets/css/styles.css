@@ -112,8 +112,23 @@ body.dark-theme{
     Color changes in some parts of 
     the website, in light theme
 ==========*/
+.dark-theme .bg-header,
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+  box-shadow: 0 2px 8px hsla(19, 64%, 4%, .5);
+}
 
+.dark-theme .popular__card{
+  box-shadow: 0 8px 20px hsla(a9, 64%, 4%, .2);
+}
+.dark-theme .newsletter__content{
+  background-color: var(--container-color);
+}
 
+.dark-theme .newsletter__form,
+.dark-theme .newsletter__input{
+  background-color: var(--body-color);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
