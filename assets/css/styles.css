@@ -407,7 +407,20 @@ img {
 }
 
 .popular__name{
-  
+  font-size: var(--h3-font-size);
+  font-family: var(--title-font);
+  margin-bottom: .25rem;
+}
+
+.popular__description{
+  display: block;
+  font-size: var(--smaller-font-size);
+  margin-bottom: 1rem;
+
+}
+
+.popular__price{
+  font-size: var(--h3-font-size);
 }
 
 /*=============== RECENTLY ===============*/
