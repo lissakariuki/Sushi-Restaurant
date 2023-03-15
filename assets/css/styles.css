@@ -604,6 +604,23 @@ font-size: var(--small-font-size);
   display: grid;
 }
 
+.footer__content{
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem;
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.footer__links{
+  row-gap: .5rem;
+}
+.footer__link{
+  color: var(--text-color);
+  transition: color .3s;
+}
 
 /*=============== SCROLL BAR ===============*/
 
