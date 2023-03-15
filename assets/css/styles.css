@@ -129,6 +129,16 @@ body.dark-theme{
 .dark-theme .newsletter__input{
   background-color: var(--body-color);
 }
+
+.dark-theme::-webkit-scrollbar{
+  background-color:  hsl(19, 8%, 15%);
+}
+.dark-theme::-webkit-scrollbar-thumb{
+  background-color:  hsl(19, 8%, 25%);
+}
+.dark-theme::-webkit-scrollbar-thumb:hover{
+  background-color:  hsl(19, 8%, 37%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
